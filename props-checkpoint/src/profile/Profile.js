@@ -12,9 +12,9 @@ const Profile = (props) => {
       <h2>{props.fullName}</h2>
       <p> {props.bio}</p>
       <h5>I am a {props.profession}</h5>
-      {/* <button onClick={() => props.handleName(`I m ${props.fullName} `)}>
+      { <button onClick={() => props.handleName(`I m ${props.fullName} `)}>
         Click Me
-      </button> */}
+      </button> }
     </>
   );
 };
